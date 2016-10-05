@@ -10,5 +10,6 @@ cd ~GOPATH/src/github.com/hawkular
 git clone https://github.com/${USERID}/hawkulark
 cd hawkulark
 git remote add upstream https://github.com/hawkular/hawkulark
+export PATH=$GOPATH/bin:$PATH
 make
 ```
